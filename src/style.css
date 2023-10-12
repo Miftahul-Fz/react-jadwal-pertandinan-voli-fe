@@ -1,0 +1,18 @@
+.app-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 100vh; /* Sesuaikan dengan ketinggian yang diinginkan */
+}
+
+.sidebar {
+  width: 250px; /* Atur lebar sidebar sesuai kebutuhan */
+  background-color: #333; /* Warna latar belakang sidebar */
+}
+
+.content {
+  flex: 1; /* Membuat content mengisi sisa ruang yang tersedia */
+  padding: 20px; /* Atur jarak antara content dan tepi */
+}
+
